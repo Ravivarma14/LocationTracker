@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/center_divider"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img"
+        android:src="@drawable/ic_baseline_location_on_24"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/center_divider"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Location Tracker"
+        android:textStyle="bold"
+        android:layout_below="@id/center_divider"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>
