@@ -215,5 +215,7 @@ The full form of DAO is a Database access object which is an interface class (``
 - Provides feature to show the PolyLines with the stored tracking data as Locations.
 - Will update Notification while Tracking with current location updated every Interval of time set.
 
+### APK
+- app-release.apk is a signed apk file to install directly to Emulator or Real Device.
 ### Notes
 - Check Location and Notification permissions manually from settings if not allowed, may app will not work as expected.
