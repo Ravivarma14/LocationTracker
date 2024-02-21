@@ -214,3 +214,6 @@ The full form of DAO is a Database access object which is an interface class (``
 - With the Interval setting and Accuracy setting, will update and store the location corresponding with the settings.
 - Provides feature to show the PolyLines with the stored tracking data as Locations.
 - Will update Notification while Tracking with current location updated every Interval of time set.
+
+### Notes
+- Check Location and Notification permissions manually from settings if not allowed, may app will not work as expected.
